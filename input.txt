@@ -1,0 +1,53 @@
+dig prime[
+
+	dig a,r/
+	dec c/
+	byte d/
+
+	a<-12/
+	c<-13.5/
+	!!d<-'e'/
+
+	out a /
+	a+*/
+	out a /
+	a-*/
+	out a /
+	dig f<-0/
+
+
+	is a<<23 [
+		out "valid number"/]
+	no [
+		out "not valid"/]
+
+	!+is a<<15 [
+	 out "a is a small number"/]+!
+
+	dig j<-1/
+	gofor j<<10 [
+		out j/
+	]
+
+
+	dig i<-9/
+
+	oddeve i/
+
+	gofor i>>3 [
+		out j/
+		]
+
+		a<-2/
+		j<-3/
+		i<-4/
+		out a/
+		out j/
+		out i/
+	f<-a#j--i&3/
+	out f/
+
+
+	out "This compiler is best for young gen"/
+	
+]
